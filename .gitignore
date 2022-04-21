@@ -12,3 +12,4 @@ explorations
 /packages/vite/LICENSE
 *.cpuprofile
 /.vscode/
+.eslintcache

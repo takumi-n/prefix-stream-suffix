@@ -10,7 +10,8 @@
     "format": "prettier --write .",
     "lint": "eslint .",
     "prepare": "husky install",
-    "main": "ts-node index.ts"
+    "main": "ts-node index.ts",
+    "build": "tsup index.ts --minify"
   },
   "bin": {
     "audivisor": "index.js"

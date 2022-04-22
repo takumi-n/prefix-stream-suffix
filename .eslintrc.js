@@ -1,4 +1,5 @@
-module.exports = {
+/** @type {import('eslint/lib/shared/types').ConfigData} */
+const config = {
   env: {
     es2021: true,
     node: true,
@@ -11,4 +12,7 @@ module.exports = {
   },
   plugins: ['@typescript-eslint'],
   rules: {},
+  ignorePatterns: ['dist/*', 'example/*'],
 };
+
+module.exports = config;

@@ -1,11 +1,11 @@
-ame: Testing
+name: ci
 
 on:
   push:
     branches: [main]
 
 jobs:
-  teest:
+  test:
     name: Node v${{ matrix.node-version }}
     runs-on: ubuntu-latest
     strategy:

@@ -14,9 +14,9 @@
     "build": "tsup-node src/index.ts --minify --dts",
     "test": "jest"
   },
-  "bin": {
-    "audivisor": "dist/index.js"
-  },
+  "files": [
+    "dist"
+  ],
   "devDependencies": {
     "@tsconfig/node14": "^1.0.1",
     "@types/jest": "^27.4.1",

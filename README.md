@@ -9,7 +9,7 @@ Stream transformer to prepend prefix and append suffix to Node.js stream
 ```js
 import { prefixStreamSuffix } from 'prefix-stream-suffix';
 
-stream.pipe(prefixStreamSuffix('prefix', 'suffix'));
+Readable.from('content').pipe(prefixStreamSuffix('prefix', 'suffix')); // === prefixcontentsuffix
 ```
 
 ## Install

@@ -2,7 +2,7 @@
 # yarn lockfile v1
 
 
-prefix-stream-suffix@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/prefix-stream-suffix/-/prefix-stream-suffix-0.0.2.tgz#83ab3e5e204624dc3afe618ae0580577a567240b"
-  integrity sha512-ad6qJGlIWWNzFQ1kU12WtsX5Opo3N+GE0iFAhNpmsJq3GOOUaS7hBx6ywj+dBBUFFZa/MgCJPB5OFXFC8Z6o4w==
+prefix-stream-suffix@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/prefix-stream-suffix/-/prefix-stream-suffix-1.0.1.tgz#780d07ea4cadaf603e37b7305d4f1ae3424b1246"
+  integrity sha512-lrm0kW1MB1rzH2tx6QFho7CJ/dGlJ6CXUU8FB1TtOrUS2Kvzh36Jiv156TxFj1lA48VoU6heBQt4zRAfo1oDUg==

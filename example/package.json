@@ -1,6 +1,6 @@
 {
   "name": "example",
   "dependencies": {
-    "prefix-stream-suffix": "1.0.0"
+    "prefix-stream-suffix": "1.0.1"
   }
 }

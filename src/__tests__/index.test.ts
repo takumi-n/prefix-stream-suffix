@@ -13,7 +13,7 @@ describe('prefixStreamSuffix', () => {
     expect(data).toBe('[prefix]content');
   });
 
-  it('append the suffix to a stream', async () => {
+  it('appends the suffix to a stream', async () => {
     let data = '';
     for await (const chunk of Readable.from('content').pipe(
       prefixStreamSuffix({ suffix: '[suffix]' })

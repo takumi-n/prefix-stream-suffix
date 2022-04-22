@@ -1,6 +1,6 @@
 {
   "name": "prefix-stream-suffix",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Stream transformer to prepend prefix and append suffix to Node.js stream",
   "main": "dist/index.js",
   "repository": "https://github.com/takumi-n/prefix-stream-suffix",

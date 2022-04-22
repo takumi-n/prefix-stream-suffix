@@ -17,6 +17,14 @@
   "files": [
     "dist"
   ],
+  "keywords": [
+    "stream",
+    "transform",
+    "prefix",
+    "suffix",
+    "prepend",
+    "append"
+  ],
   "devDependencies": {
     "@tsconfig/node14": "^1.0.1",
     "@types/jest": "^27.4.1",

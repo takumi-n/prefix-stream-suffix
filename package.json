@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "prepare": "husky install",
     "main": "ts-node src/index.ts",
-    "build": "tsup-node src/index.ts --minify --dts --format cjs",
+    "build": "tsup-node src/index.ts --minify --dts",
     "test": "jest"
   },
   "bin": {
